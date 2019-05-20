@@ -79,7 +79,7 @@ import { defaultState, nextRotation, canMoveTo, addBlockToGrid, checkRows, rando
 
       case RESTART:
 
-        return state
+        return defaultState()
 
       default:
         return state
